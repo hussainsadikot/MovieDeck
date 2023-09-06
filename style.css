@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+header>a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#search-input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 0 7px;
+}
+
+#search-button {
+    width: 100px;
+    height: 31px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: #333;
+}
+
+.sorting-options {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+#sort-by-date,
+#sort-by-rating {
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.active-sort {
+    background-color: #333;
+    color: white;
+}
+.tabs-cards-container{
+    border: 2px solid #333;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    
+}
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+    border-radius: 5px;
+   
+}
+
+#all-tab,
+#favourites-tab {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    
+}
+
+.active-tab {
+    background-color: #333;
+    color: white;
+}
+
+#movies-list {
+    display: flex;
+    padding: 20px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+
+.card {
+    width: 250px;
+    height: 375px;
+    margin: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+.poster {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.vote-favoriteIcon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.vote-count,
+.vote-average {
+    font-size: 14px;
+}
+
+#favourite-icon {
+    width: 20px;
+    
+    cursor: pointer;
+    margin-top: 40px;
+    display :flex;
+    place-items: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+#prev-button,
+#next-button {
+    margin-right: 10px;
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
